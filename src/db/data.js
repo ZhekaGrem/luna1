@@ -18,6 +18,25 @@ export const header = {
   ],
 };
 
+//ThirdColum
+
+export const thirdColum = [
+  { id: 1, src: '/corusel/1.png', alt: 'imgInfo' },
+  { id: 2, src: '/corusel/2.png', alt: 'imgInfo' },
+  { id: 3, src: '/corusel/3.png', alt: 'imgInfo' },
+  { id: 4, src: '/corusel/4.png', alt: 'imgInfo' },
+  { id: 5, src: '/corusel/5.png', alt: 'imgInfo' },
+  { id: 6, src: '/corusel/6.png', alt: 'imgInfo' },
+  { id: 7, src: '/corusel/7.png', alt: 'imgInfo' },
+  { id: 8, src: '/corusel/8.png', alt: 'imgInfo' },
+  { id: 9, src: '/corusel/9.png', alt: 'imgInfo' },
+  { id: 10, src: '/corusel/10.png', alt: 'imgInfo' },
+  { id: 11, src: '/corusel/11.png', alt: 'imgInfo' },
+  { id: 12, src: '/corusel/12.png', alt: 'imgInfo' },
+  { id: 13, src: '/corusel/13.png', alt: 'imgInfo' },
+  { id: 14, src: '/corusel/14.png', alt: 'imgInfo' },
+];
+
 //Footer
 export const footer = {
   firstColum: [

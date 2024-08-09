@@ -1,13 +1,12 @@
-import { Inter } from 'next/font/google';
+import { Noto_Sans } from 'next/font/google';
 import '@/app/styles/globals.css';
-import Footer from '@/app/components/layout/Footer';
-import Header from '@/app/components/layout/Header';
+// import Footer from '@/app/components/layout/Footer';
 import { siteMetadata, siteViewport } from '@/lib/metadata';
 // import { PortalProvider } from '@/app/context/PortalContext'
 // import { GoogleTagManager from '@next/third-parties/google'; if you need npm i @next/third-parties
 // import { GoogleAnalytics } from '@next/third-parties/google'; if you need npm i @next/third-parties
 
-const inter = Inter({ subsets: ['latin'] });
+const noto = Noto_Sans({ subsets: ['latin'] });
 
 export const viewport = siteViewport;
 
@@ -25,10 +24,8 @@ export default function RootLayout({
         <GoogleAnalytics gaId="youID" /> */}
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={inter.className}>
-        <Header />
+      <body className={noto.className}>
         <main>{children}</main>
-        <Footer />
         <div id="portal-root" />
         {/* if need PopUp
                  <PortalProvider>

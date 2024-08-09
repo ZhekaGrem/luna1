@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-     presets: ['@babel/preset-env', '@babel/preset-typescript', '@babel/preset-react'],
+  experimental: {
+    forceSwcTransforms: true,
+  },
 };
 
 export default nextConfig;

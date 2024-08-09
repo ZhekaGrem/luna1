@@ -5,24 +5,20 @@ export const siteViewport: Viewport = {
   initialScale: 1.0,
 };
 export const siteMetadata: Metadata = {
-  title: '1111',
-  description: 'Опис',
-  keywords: ['', '', '', '', '', ''],
+  title: 'LUNA',
+  description: 'LUNA is the embodiment of tenderness and love.',
+  keywords: ['LUNA', '', '', '', '', ''],
   openGraph: {
     title: '',
-    description: 'Опис',
-    images: [
-      'https://as1.ftcdn.net/v2/jpg/04/54/10/86/1000_F_454108632_C48wbroFTZQQR5tiSeg0oX0GkrYE8j8Z.jpg',
-    ],
+    description: 'LUNA is the embodiment of tenderness and love.',
+    images: ['https://res.cloudinary.com/dwgk0dtrp/image/upload/v1723234350/LUNA/dx3wukexkaa3rsng9bdp.png'],
 
     type: 'website',
   },
   twitter: {
     title: '',
-    description: 'Опис',
-    images: [
-      'https://as1.ftcdn.net/v2/jpg/04/54/10/86/1000_F_454108632_C48wbroFTZQQR5tiSeg0oX0GkrYE8j8Z.jpg',
-    ],
+    description: 'LUNA is the embodiment of tenderness and love.',
+    images: ['https://res.cloudinary.com/dwgk0dtrp/image/upload/v1723234350/LUNA/dx3wukexkaa3rsng9bdp.png'],
   },
   robots: 'index, follow',
   alternates: {

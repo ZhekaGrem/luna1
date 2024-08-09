@@ -1,0 +1,33 @@
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.marquee-right {
+  display: flex;
+  min-width: calc(200% + (49 * 0.5rem));
+  animation: marquee-right 25s linear infinite;
+}
+.marquee-left {
+  display: flex;
+  min-width: calc(200% + (49 * 0.5rem));
+  animation: marquee-left 10s linear infinite;
+}
+
+.slide {
+  width: calc(100% / 15);
+  flex-shrink: 0;
+  padding-right: 0.5rem;
+}

@@ -1,0 +1,108 @@
+.bg1_1 {
+  height: 780px;
+  background-color: #97d065;
+
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bg1_2 {
+  height: 780px;
+  background-position: left center;
+  background-attachment: scroll;
+  background-image: url('../assets/bg/bg-1.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+}
+.bg1_3 {
+  height: 780px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  transform: translateZ(0);
+}
+
+.first_block {
+  position: absolute;
+  width: 1200px;
+  left: calc(50% - 600px + 0px);
+  top: 37px;
+  height: 100px;
+  z-index: 2;
+  border-width: 5px;
+  border-radius: 50px;
+  opacity: 0.9;
+  background-color: #ffffff;
+  background-position: center center;
+  border-color: #000000;
+  border-style: solid;
+}
+
+.dog {
+  position: absolute;
+  z-index: 5;
+  top: 5px;
+  left: calc(50% - 600px + 21px);
+}
+.x {
+  position: absolute;
+  left: calc(50% - 600px + 995px);
+  top: 55px;
+  z-index: 3;
+}
+.telegram {
+  position: absolute;
+  z-index: 4;
+  top: 55px;
+  left: calc(50% - 600px + 1090px);
+}
+
+.buy {
+  position: absolute;
+
+  z-index: 7;
+  top: 404px;
+  left: calc(50% - 600px + -4px);
+}
+
+.dog_bg {
+  position: absolute;
+
+  z-index: 6;
+  top: 51px;
+  left: calc(50% - 600px + 245px);
+}
+
+.text_bg {
+  position: absolute;
+  z-index: 8;
+  top: 264px;
+  left: calc(50% - 600px + 735px);
+}
+
+.text_sm {
+  position: absolute;
+  z-index: 8;
+  top: 458px;
+  left: calc(50% - 600px + 735px);
+}
+
+.img_down {
+  position: absolute;
+  z-index: 9;
+  top: 650px;
+  left: calc(50% - 600px + -898px);
+  width: 3000px;
+}
+
+.slider {
+  position: absolute;
+  z-index: 10;
+  top: 662px;
+}

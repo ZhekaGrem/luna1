@@ -1,0 +1,88 @@
+.bg3_1 {
+  height: 890px;
+  background-color: #fda1d7;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.bg3_2 {
+  height: 890px;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+}
+.bg3_3 {
+  height: 890px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  transform: translateZ(0);
+}
+.img_up {
+  position: absolute;
+  z-index: 69;
+  top: -85px;
+  left: calc(50% - 600px + -900px);
+  width: 3000px;
+}
+
+.img_1 {
+  position: absolute;
+  z-index: 86;
+  top: 319px;
+  left: calc(50% - 600px + 86px);
+  width: 221px;
+}
+.img_1_2 {
+  position: absolute;
+  z-index: 87;
+  top: 404px;
+  left: calc(50% - 600px + -47px);
+  width: 453px;
+}
+.img_2 {
+  position: absolute;
+  z-index: 70;
+  top: 177px;
+  left: calc(50% - 600px + 407px);
+  width: 380px;
+}
+.img_3_1 {
+  position: absolute;
+  z-index: 74;
+  top: 135px;
+  left: calc(50% - 600px + 880px);
+  width: 315px;
+  transform: rotate(6deg);
+}
+.img_3_2 {
+  position: absolute;
+  z-index: 73;
+  top: 466px;
+  left: calc(50% - 600px + 787px);
+  width: 413px;
+}
+
+.img_down {
+  position: absolute;
+  z-index: 72;
+  top: 749px;
+  left: calc(50% - 600px + -900px);
+  width: 3000px;
+}
+
+.carusel {
+  width: 100%;
+  position: absolute;
+  z-index: 83;
+  top: 774px;
+}

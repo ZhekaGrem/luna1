@@ -75,15 +75,6 @@ p {
   padding-right: 1.25rem;
 }
 
-section {
-  height: 100%;
-  padding-bottom: 20px;
-}
-section:last-child {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
 /* h1 {
   font-weight: 900;
   margin-bottom: 2rem;
@@ -124,13 +115,4 @@ h2 {
   .container {
     max-width: 1200px;
   }
-}
-
-.section {
-  min-height: auto;
-  padding: 2rem 0;
-}
-
-.img {
-  fill: '#ffffff';
 }

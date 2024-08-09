@@ -1,0 +1,47 @@
+.bg2_1 {
+  height: 490px;
+  background-color: #64821b;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.bg2_2 {
+  height: 780px;
+  background-color: #64821b;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.bg2_3 {
+  height: 490px;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  transform: translateZ(0);
+}
+
+.dex_scr {
+  position: absolute;
+  z-index: 43;
+  top: 48px;
+  left: calc(50% - 600px + 174px);
+  width: 406px;
+}
+
+.dex_tol {
+  position: absolute;
+  z-index: 44;
+  top: 148px;
+  left: calc(50% - 600px + 580px);
+  width: 406px;
+}
