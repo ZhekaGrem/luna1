@@ -45,10 +45,11 @@
 }
 
 .dog {
+  left: calc(50% - 600px + 21px);
+
   position: absolute;
   z-index: 5;
   top: 5px;
-  left: calc(50% - 600px + 21px);
 }
 .x {
   position: absolute;
@@ -106,14 +107,86 @@
   z-index: 10;
   top: 662px;
 }
+
 @media screen and (max-width: 1199px) {
+  .first_block {
+    width: 960px;
+  }
+  .x {
+    left: calc(50% - 480px + 770px);
+  }
+  .telegram {
+    left: calc(50% - 480px + 865px);
+  }
+  .dog_bg {
+    top: 55px;
+    left: calc(50% - 480px + 148px);
+  }
+  .text_bg {
+    top: 295px;
+    left: calc(50% - 480px + 630px);
+    width: 338px;
+  }
+  .text_sm {
+    top: 440px;
+    left: calc(50% - 480px + 630px);
+    width: 338px;
+  }
+  .buy {
+    top: 445px;
+    left: calc(50% - 480px + 0px);
+    width: 304px;
+  }
 }
 @media screen and (max-width: 959px) {
-}
-@media (max-width: 639px) {
   .bg1_2 {
     height: 1060px;
   }
+  .first_block {
+    width: 640px;
+    left: 26px;
+    top: 37px;
+    height: 80px;
+  }
+  .dog {
+    top: 2px;
+    width: 112px;
+    left: calc(50% - 290px);
+  }
+  .x {
+    top: 48px;
+    left: calc(50% - 320px + 485px);
+    width: 66px;
+  }
+  .telegram {
+    top: 48px;
+    left: calc(50% - 320px + 564px);
+    width: 66px;
+  }
+  .dog_bg {
+    top: 273px;
+    left: calc(50% - 320px + 125px);
+    width: 656px;
+  }
+  .text_bg {
+    top: 114px;
+    left: calc(50% - 320px + 103px);
+    width: 435px;
+  }
+  .text_sm {
+    top: 292px;
+    left: calc(50% - 320px + 150px);
+  }
+  .buy {
+    top: 708px;
+    left: calc(50% - 320px + 10px);
+  }
+  .img_down {
+    top: 918px;
+    left: calc(50% - 320px + -1180px);
+  }
+}
+@media (max-width: 639px) {
   .first_block {
     top: 35px;
     height: 80px;
@@ -121,9 +194,9 @@
     left: 23px;
   }
   .dog {
-    left: 44px;
     top: -1px;
     width: 112px;
+    left: calc(50% - 240px + 100px);
   }
   .x {
     top: 49px;
@@ -172,13 +245,14 @@
   }
   .first_block {
     left: calc(50% - 160px + -3px);
+
     width: 326px;
     top: 35px;
     height: 80px;
   }
   .dog {
     top: 10px;
-    left: calc(50% - 160px + 9px);
+
     width: 101px;
   }
   .x {

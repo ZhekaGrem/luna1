@@ -18,7 +18,7 @@ const data: ImageType[] = thirdColum;
 const InfinitySliderThird = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
-  const [sliderRef, instanceRef] = useKeenSlider({
+  const [ref, instanceRef] = useKeenSlider<HTMLDivElement>({
     initial: 0,
     loop: true,
     slides: {
@@ -47,7 +47,7 @@ const InfinitySliderThird = () => {
 
   return (
     <div className="relative p-4">
-      <div ref={sliderRef} className="keen-slider">
+      <div ref={ref} className="keen-slider">
         {data.map((item) => (
           <div key={item.id} className="keen-slider__slide">
             <Image

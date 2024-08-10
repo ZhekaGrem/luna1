@@ -7,7 +7,10 @@ const Five = () => {
       <div className={styles.bg5_1}>
         <div className={styles.first_block}></div>
         <div className={styles.block_text}>
-          <p className="text-4xl font-extrabold"> CA: 0xDAde98C0ee0E729988fD87C9FFa6Cba57635259e</p>
+          <p className="text-xs font-extrabold md:text-2xl xl:text-3xl">
+            {' '}
+            CA: 0xDAde98C0ee0E729988fD87C9FFa6Cba57635259e
+          </p>
         </div>
         <div className={styles.img_1}>
           <a href="">
@@ -35,7 +38,7 @@ const Five = () => {
           </a>
         </div>
         <div className={styles.text_down}>
-          <p className="text-lg font-black">Copyright © 2024</p>
+          <p className="text-sm font-black md:text-lg">Copyright © 2024</p>
         </div>
       </div>
     </section>
