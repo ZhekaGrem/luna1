@@ -45,3 +45,33 @@
   left: calc(50% - 600px + 580px);
   width: 406px;
 }
+
+@media screen and (max-width: 1199px) {
+  .dex_scr {
+    top: 142px;
+    left: calc(50% - 480px + 250px);
+    width: 234px;
+  }
+  .dex_tol {
+    top: 200px;
+    left: calc(50% - 480px + 485px);
+    width: 234px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .dex_scr {
+    left: calc(50% - 320px + 85px);
+    top: 142px;
+    width: 234px;
+  }
+  .dex_tol {
+    left: 479px;
+    top: 200px;
+    width: 234px;
+    left: calc(50% - 320px + 320px);
+  }
+}
+@media screen and (max-width: 639px) {
+}
+@media screen and (max-width: 479px) {
+}

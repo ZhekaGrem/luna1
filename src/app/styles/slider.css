@@ -18,16 +18,28 @@
 .marquee-right {
   display: flex;
   min-width: calc(200% + (49 * 0.5rem));
-  animation: marquee-right 25s linear infinite;
+  animation: marquee-right 5s linear infinite;
 }
 .marquee-left {
   display: flex;
   min-width: calc(200% + (49 * 0.5rem));
-  animation: marquee-left 10s linear infinite;
+  animation: marquee-left 2s linear infinite;
 }
 
 .slide {
-  width: calc(100% / 15);
+  width: calc(100% / 5);
   flex-shrink: 0;
   padding-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .marquee-right {
+    animation: marquee-right 20s linear infinite;
+  }
+  .marquee-left {
+    animation: marquee-left 10s linear infinite;
+  }
+  .slide {
+    width: calc(100% / 15);
+  }
 }

@@ -5,7 +5,6 @@
   background-image: url('../assets/bg/bg-5.svg');
   background-size: cover;
   background-repeat: no-repeat;
-
   left: 0;
   top: 0;
   z-index: 0;
@@ -88,4 +87,13 @@
   top: 158px;
   left: calc(50% - 600px + 73px);
   width: 1055px;
+}
+
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 959px) {
+}
+@media screen and (max-width: 639px) {
+}
+@media screen and (max-width: 479px) {
 }

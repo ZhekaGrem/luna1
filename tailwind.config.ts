@@ -12,6 +12,10 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        'spin-slow-2': 'spin 2s linear infinite',
+        'spin-slow-3': 'spin 3s linear infinite',
+      },
     },
   },
   plugins: [],

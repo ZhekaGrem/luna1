@@ -106,3 +106,115 @@
   z-index: 10;
   top: 662px;
 }
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 959px) {
+}
+@media (max-width: 639px) {
+  .bg1_2 {
+    height: 1060px;
+  }
+  .first_block {
+    top: 35px;
+    height: 80px;
+    width: 480px;
+    left: 23px;
+  }
+  .dog {
+    left: 44px;
+    top: -1px;
+    width: 112px;
+  }
+  .x {
+    top: 49px;
+    left: calc(50% - 240px + 329px);
+    width: 55px;
+  }
+  .telegram {
+    top: 49px;
+    left: calc(50% - 240px + 402px);
+    width: 55px;
+  }
+  .dog_bg {
+    top: 298px;
+    left: calc(50% - 240px + 0px);
+    width: 631px;
+  }
+
+  .text_bg {
+    top: 111px;
+    left: calc(50% - 240px + 37px);
+    width: 404px;
+  }
+
+  .text_sm {
+    top: 274px;
+    left: calc(50% - 240px + 44px);
+  }
+
+  .buy {
+    top: 737px;
+    left: calc(50% - 240px + -17px);
+    width: 266px;
+  }
+  .img_down {
+    top: 918px;
+    left: calc(50% - 320px + -1180px);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .bg1_1 {
+    height: 730px;
+  }
+  .bg1_3 {
+    height: 730px;
+  }
+  .first_block {
+    left: calc(50% - 160px + -3px);
+    width: 326px;
+    top: 35px;
+    height: 80px;
+  }
+  .dog {
+    top: 10px;
+    left: calc(50% - 160px + 9px);
+    width: 101px;
+  }
+  .x {
+    top: 53px;
+    left: calc(50% - 160px + 200px);
+    width: 55px;
+  }
+  .telegram {
+    width: 55px;
+    top: 53px;
+    left: calc(50% - 160px + 258px);
+  }
+  .dog_bg {
+    top: 232px;
+    left: calc(50% - 160px + 31px);
+    width: 385px;
+  }
+
+  .text_bg {
+    top: 111px;
+    left: calc(50% - 160px + 36px);
+    width: 248px;
+  }
+
+  .text_sm {
+    top: 210px;
+    left: calc(50% - 160px + 36px);
+    width: 234px;
+  }
+  .buy {
+    top: 498px;
+    left: calc(50% - 160px + 0px);
+    width: 161px;
+  }
+  .img_down {
+    top: 607px;
+    left: calc(50% - 160px + -1340px);
+  }
+}

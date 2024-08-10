@@ -7,6 +7,68 @@ const Two = () => {
     <section className={styles.bg2_1}>
       <div className={styles.bg2_2}>
         <div className={styles.bg2_3}>
+          <div className={`${styles.bg2_4} grid h-[600px] grid-cols-4 grid-rows-3 gap-4`}>
+            <div className={`${styles.bg2_4} absolute grid h-full w-full grid-cols-5 grid-rows-5 gap-4`}>
+              {[...Array(25)].map((_, index) => (
+                <div key={index} className="col-span-1 row-span-6 flex items-center justify-end p-12">
+                  <Image src="/svg/mini-plant.svg" alt="Картинка 2" width={20} height={25} className="" />
+                </div>
+              ))}
+            </div>
+            <div
+              className={`${styles.bg2_4} absolute grid h-full w-full grid-cols-5 grid-rows-5 gap-4 opacity-35`}>
+              {[...Array(15)].map((_, index) => (
+                <div key={index} className="col-span-1 row-span-2 flex items-start justify-start p-12">
+                  <Image src="/svg/mini-plant-2.svg" alt="Картинка 1" width={40} height={52} className="" />
+                </div>
+              ))}
+            </div>
+            <div className="col-span-2 row-span-2 flex items-center justify-center">
+              <Image
+                src="/svg/flower-white.svg"
+                alt="Картинка 1"
+                width={69}
+                height={50}
+                className="animate-spin-slow-3 object-cover"
+              />
+            </div>
+            <div className="col-span-2 row-span-2 flex items-start justify-center p-12">
+              <Image
+                src="/svg/flower-pink.svg"
+                alt="Картинка 2"
+                width={69}
+                height={50}
+                className="animate-spin-slow-2"
+              />
+            </div>
+            <div className="row-span-1 p-5">
+              <Image
+                src="/svg/flower-pink.svg"
+                alt="Картинка 3"
+                width={69}
+                height={50}
+                className="animate-spin-slow-2"
+              />
+            </div>
+            <div className="col-span-1 row-span-2 flex items-start justify-center pt-8">
+              <Image
+                src="/svg/flower-white.svg"
+                alt="Картинка 4"
+                width={69}
+                height={50}
+                className="animate-spin-slow-2"
+              />
+            </div>
+            <div className="col-span-2 row-span-2 flex items-start justify-end p-5">
+              <Image
+                src="/svg/flower-white.svg"
+                alt="Картинка 5"
+                width={69}
+                height={50}
+                className="animate-spin-slow-3"
+              />
+            </div>
+          </div>
           <div className={styles.block}></div>
           <div className={styles.dex_scr}>
             <a href="">

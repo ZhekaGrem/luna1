@@ -25,6 +25,7 @@ const InfinitySliderThird = () => {
       perView: 3,
       spacing: 15,
     },
+
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel);
     },
