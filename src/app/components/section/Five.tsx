@@ -19,7 +19,7 @@ const Five = () => {
         </div>
         <div className={styles.img_2}>
           <a href="">
-            <Image src="/svg/x.svg" width={136} height={108} alt="x" />
+            <Image src="/svg/X.svg" width={136} height={108} alt="x" />
           </a>
         </div>
         <div className={styles.img_3}>
