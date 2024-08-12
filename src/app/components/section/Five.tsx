@@ -24,33 +24,29 @@ const Five = () => {
             className={styles.block_text}>
             <p className="text-xs font-extrabold md:text-2xl xl:text-3xl">
               {' '}
-              CA: 0xDAde98C0ee0E729988fD87C9FFa6Cba57635259e
+              CA: 0x6f5d9662a998cEfaDE4F29129a46d4D15289b093
             </p>
           </motion.div>
           <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.img_1}>
-            <a href="">
+            <a href="https://x.com/LunamemeTeam">
               <Image src="/join_us.png" width={531} height={417} alt="join us" />
             </a>
           </motion.div>
           <motion.div variants={emergence} initial="hidden" animate="visible" className={styles.img_2}>
-            <a href="">
+            <a href="https://x.com/LunamemeTeam">
               <Image src="/svg/X.svg" width={136} height={108} alt="x" />
             </a>
           </motion.div>
           <motion.div variants={emergence} initial="hidden" animate="visible" className={styles.img_3}>
-            <a href="">
+            <a href="https://t.me/lunameme1">
               <Image src="/svg/telegram.svg" width={136} height={108} alt="x" />
             </a>
           </motion.div>
           <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.img_4}>
-            <a href="">
-              <Image src="/svg/dog3.svg" width={201} height={341} alt="x" />
-            </a>
+            <Image src="/svg/dog3.svg" width={201} height={341} alt="x" />
           </motion.div>
           <motion.div variants={emergence} initial="hidden" animate="visible" className={styles.img_5}>
-            <a href="">
-              <Image src="/text1.png" width={79} height={60} alt="x" />
-            </a>
+            <Image src="/text1.png" width={79} height={60} alt="x" />
           </motion.div>
           <div className={styles.text_down}>
             <p className="text-sm font-black md:text-lg">Copyright © 2024</p>

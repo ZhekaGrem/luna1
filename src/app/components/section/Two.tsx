@@ -73,12 +73,12 @@ const Two = () => {
           </div>
           <div className={styles.block}></div>
           <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.dex_scr}>
-            <a href="">
+            <a href="https://medium.com/@lunameme">
               <Image src="/dex.png" width={508} height={60} alt="x" />
             </a>
           </motion.div>
           <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.dex_tol}>
-            <a href="">
+            <a href="https://medium.com/@lunameme">
               <Image src="/dex2.png" width={508} height={60} alt="x" />
             </a>
           </motion.div>

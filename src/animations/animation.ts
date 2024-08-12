@@ -3,7 +3,7 @@ export const slideUp = {
   visible: {
     y: 0,
     opacity: 1,
-    transition: { duration: 0.7 },
+    transition: { duration: 1.7 },
   },
 };
 export const slideRCenter = {
@@ -11,7 +11,7 @@ export const slideRCenter = {
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 0.7 },
+    transition: { duration: 1.7 },
   },
 };
 
@@ -32,7 +32,7 @@ export const slideInLeft = {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 0.8,
+      duration: 1.8,
       ease: 'easeInOut',
     },
   },
@@ -43,7 +43,7 @@ export const slideInRight = {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 0.8,
+      duration: 1.8,
       ease: 'easeInOut',
     },
   },
