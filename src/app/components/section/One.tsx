@@ -15,7 +15,7 @@ const One: React.FC = () => {
             <Image src="/svg/dog.svg" width={127} height={127} alt="x" />
           </div>
           <div className={styles.medium}>
-            <a href="https://medium.com/@lunameme" target="_blank" aria-label="etherscan" title="etherscan">
+            <a href="https://medium.com/@lunameme" target="_blank" aria-label="medium" title="medium">
               <Image src="/m.png" width={79} height={60} alt="medium" />
             </a>
           </div>

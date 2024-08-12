@@ -34,8 +34,8 @@
   position: absolute;
   z-index: 43;
   top: 48px;
-  left: calc(50% - 600px + 174px);
-  width: 406px;
+  left: calc(50% - 600px + 274px);
+  width: 506px;
 }
 
 .dex_tol {
@@ -49,8 +49,8 @@
 @media screen and (max-width: 1199px) {
   .dex_scr {
     top: 142px;
-    left: calc(50% - 480px + 250px);
-    width: 234px;
+    left: calc(50% - 480px + 350px);
+    width: 334px;
   }
   .dex_tol {
     top: 200px;
@@ -60,18 +60,21 @@
 }
 @media screen and (max-width: 959px) {
   .dex_scr {
-    left: calc(50% - 320px + 85px);
+    left: calc(50% - 320px + 185px);
     top: 142px;
-    width: 234px;
+    width: 334px;
   }
   .dex_tol {
     left: 479px;
     top: 200px;
     width: 234px;
-    left: calc(50% - 320px + 320px);
+    left: calc(50% - 320px + 300px);
   }
 }
 @media screen and (max-width: 639px) {
+  .dex_scr {
+    left: calc(50% - 320px + 145px);
+  }
 }
 @media screen and (max-width: 479px) {
 }
