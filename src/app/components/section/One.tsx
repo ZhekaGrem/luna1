@@ -15,13 +15,19 @@ const One: React.FC = () => {
             <Image src="/svg/dog.svg" width={127} height={127} alt="x" />
           </div>
           <div className={styles.medium}>
-            <Image src="/m.png" width={79} height={60} alt="medium" />
+            <a href="https://medium.com/@lunameme" target="_blank" aria-label="etherscan" title="etherscan">
+              <Image src="/m.png" width={79} height={60} alt="medium" />
+            </a>
           </div>
           <div className={styles.x}>
-            <Image src="/svg/X.svg" width={79} height={60} alt="x" />
+            <a href="https://x.com/LunamemeTeam" target="_blank" aria-label="X" title="X">
+              <Image src="/svg/X.svg" width={79} height={60} alt="x" />
+            </a>
           </div>
           <div className={styles.telegram}>
-            <Image src="/svg/telegram.svg" width={79} height={60} alt="x" />
+            <a href="https://t.me/lunameme1" target="_blank" aria-label="telegram" title="telegram">
+              <Image src="/svg/telegram.svg" width={79} height={60} alt="telegram" />
+            </a>
           </div>
           <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.buy}>
             <Image src="/svg/buy.svg" width={350} height={60} alt="x" />

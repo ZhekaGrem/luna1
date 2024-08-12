@@ -59,6 +59,13 @@
   left: calc(50% - 600px + 844px);
   width: 136px;
 }
+.img_3_1 {
+  position: absolute;
+  z-index: 7;
+  top: 359px;
+  left: calc(50% - 600px + 844px);
+  width: 136px;
+}
 
 .img_4 {
   position: absolute;
