@@ -14,6 +14,9 @@ const One: React.FC = () => {
           <div className={styles.dog}>
             <Image src="/svg/dog.svg" width={127} height={127} alt="x" />
           </div>
+          <div className={styles.medium}>
+            <Image src="/m.png" width={79} height={60} alt="medium" />
+          </div>
           <div className={styles.x}>
             <Image src="/svg/X.svg" width={79} height={60} alt="x" />
           </div>

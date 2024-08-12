@@ -72,16 +72,22 @@ const Two = () => {
             </div>
           </div>
           <div className={styles.block}></div>
-          <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.dex_scr}>
-            <a href="https://medium.com/@lunameme">
-              <Image src="/dex.png" width={508} height={60} alt="x" />
+          <motion.div
+            variants={slideUp}
+            initial="hidden"
+            animate="visible"
+            className={styles.dex_scr}
+            aria-label="etherscan"
+            title="etherscan">
+            <a href="https://etherscan.io/address/0x6f5d9662a998cEfaDE4F29129a46d4D15289b093" target="_blank">
+              <Image src="/dex3.png" width={508} height={60} alt="etherscan" />
             </a>
           </motion.div>
-          <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.dex_tol}>
+          {/* <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.dex_tol}>
             <a href="https://medium.com/@lunameme">
               <Image src="/dex2.png" width={508} height={60} alt="x" />
             </a>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
