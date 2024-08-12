@@ -2,8 +2,10 @@
 import styles from '@/app/styles/one.module.css';
 import InfiniteSliderFirst from '@/app/components/layout/InfiniteSliderFirst';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { slideUp } from '@/animations/animation';
 
-const One = () => {
+const One: React.FC = () => {
   return (
     <section className={styles.bg1_1}>
       <div className={styles.bg1_2}>
@@ -24,11 +26,11 @@ const One = () => {
               <Image src="/svg/telegram.svg" width={79} height={60} alt="x" />
             </a>
           </div>
-          <div className={styles.buy}>
+          <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.buy}>
             <a href="">
               <Image src="/svg/buy.svg" width={350} height={60} alt="x" />
             </a>
-          </div>
+          </motion.div>
           <div className={styles.dog_bg}>
             <a href="">
               <Image src="/svg/dog.svg" width={635} height={60} alt="x" />

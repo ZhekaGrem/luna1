@@ -31,6 +31,6 @@
     ".next/types/**/*.ts",
     "**/*.spec.ts",
     "**/*.test.tsx"
-, "src/__tests__/Portal.test.tsx.exaple"  ],
+, "src/__tests__/Portal.test.tsx.exaple", "src/animations/animation.ts"  ],
   "exclude": ["node_modules", "dist"]
 }
