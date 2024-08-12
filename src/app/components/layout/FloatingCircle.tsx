@@ -49,7 +49,7 @@ const FloatingCircle: React.FC = () => {
           className={`h-auto w-full rounded-full object-cover ${isPlaying ? '' : 'opacity-50'}`}
         />
       </div>
-      <div className={`fixed bottom-5 left-5 z-50 h-16 w-16 rounded-full`} onClick={togglePlay}>
+      <div className={`fixed bottom-5 left-6 z-50 h-16 w-16 rounded-full`} onClick={togglePlay}>
         <PlayIcon className={`${isPlaying ? 'hidden' : ''}`} />
       </div>
       <audio ref={audioRef} loop>
