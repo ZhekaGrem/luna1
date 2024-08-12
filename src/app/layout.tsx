@@ -1,8 +1,8 @@
 import { Noto_Sans } from 'next/font/google';
 import '@/app/styles/globals.css';
-// import Footer from '@/app/components/layout/Footer';
+import FloatingCircle from '@/app/components/layout/FloatingCircle';
 import { siteMetadata, siteViewport } from '@/lib/metadata';
-// import { PortalProvider } from '@/app/context/PortalContext'
+// import { PortalProvider } from '@/context/PortalContext'
 // import { GoogleTagManager from '@next/third-parties/google'; if you need npm i @next/third-parties
 // import { GoogleAnalytics } from '@next/third-parties/google'; if you need npm i @next/third-parties
 
@@ -26,7 +26,8 @@ export default function RootLayout({
       </head>
       <body className={noto.className}>
         <main>{children}</main>
-        <div id="portal-root" />
+        <FloatingCircle />
+        {/* <div id="portal-root" /> */}
         {/* if need PopUp
                  <PortalProvider>
 
