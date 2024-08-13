@@ -20,14 +20,28 @@ const Three = () => {
                 <div
                   key={index}
                   className="col-span-2 row-span-8 flex items-center justify-center gap-9 p-12 md:items-start">
-                  <Image src="/gif2.gif" alt="Картинка 2" width={69} height={50} className="min-w-10" />
+                  <Image
+                    unoptimized
+                    src="/gif2.gif"
+                    alt="Картинка 2"
+                    width={69}
+                    height={50}
+                    className="min-w-10"
+                  />
                 </div>
               ))}
             </div>
             <div className={`${styles.bg2_4} absolute grid h-full w-full grid-cols-5 grid-rows-5 gap-4`}>
               {[...Array(25)].map((_, index) => (
                 <div key={index} className="col-span-1 row-span-6 flex items-center justify-end p-12">
-                  <Image src="/gif.gif" alt="Картинка 2" width={69} height={50} className="min-w-7" />
+                  <Image
+                    unoptimized
+                    src="/gif.gif"
+                    alt="Картинка 2"
+                    width={69}
+                    height={50}
+                    className="min-w-7"
+                  />
                 </div>
               ))}
             </div>
@@ -36,7 +50,14 @@ const Three = () => {
                 <div
                   key={index}
                   className="col-span-5 row-span-7 flex items-start justify-center gap-2 p-12 md:col-span-1">
-                  <Image src="/gif3.gif" alt="Картинка 2" width={69} height={50} className="min-w-8" />
+                  <Image
+                    src="/gif3.gif"
+                    alt="Картинка 2"
+                    width={69}
+                    height={50}
+                    className="min-w-8"
+                    unoptimized
+                  />
                 </div>
               ))}
             </div>

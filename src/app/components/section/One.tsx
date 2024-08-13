@@ -4,8 +4,11 @@ import InfiniteSliderFirst from '@/app/components/layout/InfiniteSliderFirst';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { slideUp } from '@/animations/animation';
+import CopyButton from '@/app/components/cummon/ButtonCopy';
 
 const One: React.FC = () => {
+  const textToCopy = '0x6f5d9662a998cEfaDE4F29129a46d4D15289b093';
+
   return (
     <section className={styles.bg1_1}>
       <div className={styles.bg1_2}>
@@ -13,6 +16,9 @@ const One: React.FC = () => {
           <div className={styles.first_block}></div>
           <div className={styles.dog}>
             <Image src="/svg/dog.svg" width={127} height={127} alt="x" />
+          </div>
+          <div className={styles.cn}>
+            <CopyButton text={textToCopy} />
           </div>
           <div className={styles.medium}>
             <a href="https://medium.com/@lunameme" target="_blank" aria-label="medium" title="medium">

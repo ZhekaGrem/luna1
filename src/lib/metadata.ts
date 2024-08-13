@@ -7,7 +7,7 @@ export const siteViewport: Viewport = {
 export const siteMetadata: Metadata = {
   title: 'LUNA',
   description: 'LUNA is the embodiment of tenderness and love.',
-  keywords: ['LUNA', '', '', '', '', ''],
+  keywords: ['LUNA', 'Coin', 'meme coin', 'web-3', 'eth20', 'etherscan'],
   openGraph: {
     title: '',
     description: 'LUNA is the embodiment of tenderness and love.',
@@ -22,7 +22,7 @@ export const siteMetadata: Metadata = {
   },
   robots: 'index, follow',
   alternates: {
-    canonical: 'урла',
+    canonical: 'https://www.lunameme.com/',
   },
   icons: {
     icon: ['/favicon.ico'],

@@ -31,6 +31,7 @@ const FloatingCircle: React.FC = () => {
       {isPlaying && (
         <div className="fixed bottom-28 left-5 z-50 h-16 w-16">
           <Image
+            unoptimized
             src="/notesanimation.webp"
             alt="Animated GIF"
             width={40}

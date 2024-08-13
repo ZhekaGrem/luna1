@@ -46,10 +46,15 @@
 
 .dog {
   left: calc(50% - 600px + 21px);
-
   position: absolute;
   z-index: 5;
   top: 5px;
+}
+.cn {
+  left: calc(50% - 600px + 500px);
+  position: absolute;
+  z-index: 10;
+  top: 50px;
 }
 .medium {
   position: absolute;
@@ -117,6 +122,10 @@
 @media screen and (max-width: 1199px) {
   .first_block {
     width: 960px;
+    left: calc(50% - 480px);
+  }
+  .dog {
+    left: calc(50% - 600px + 141px);
   }
   .medium {
     left: calc(50% - 480px + 675px);
@@ -152,15 +161,19 @@
     height: 1060px;
   }
   .first_block {
-    width: 640px;
-    left: 26px;
-    top: 37px;
+    width: 650px;
+    left: calc(50% - 310px);
     height: 80px;
   }
   .dog {
     top: 2px;
     width: 112px;
     left: calc(50% - 290px);
+  }
+  .cn {
+    top: 43px;
+    left: calc(50% - 600px + 500px);
+    width: 66px;
   }
   .medium {
     top: 43px;
@@ -274,6 +287,11 @@
     top: 10px;
 
     width: 101px;
+  }
+  .cn {
+    top: 58px;
+    left: calc(50% - 160px + 88px);
+    width: 55px;
   }
   .medium {
     top: 48px;
