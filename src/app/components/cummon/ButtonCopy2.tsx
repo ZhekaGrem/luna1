@@ -5,7 +5,7 @@ type CopyButtonProps = {
   text: string;
 };
 
-const ButtonCopy: React.FC<CopyButtonProps> = ({ text }) => {
+const ButtonCopy2: React.FC<CopyButtonProps> = ({ text }) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
@@ -26,20 +26,16 @@ const ButtonCopy: React.FC<CopyButtonProps> = ({ text }) => {
       className="inline-flex items-center rounded-md border border-gray-300 px-2 py-1 text-sm font-medium text-black shadow-sm transition-all duration-200 ease-in-out hover:outline-none hover:ring-2 hover:ring-green-500 hover:ring-offset-2">
       {copied ? (
         <>
-          <ClipboardDocumentCheckIcon className="h-5 w-5 sm:h-16 sm:w-14" />
+          <ClipboardDocumentCheckIcon className="h-4 w-4 text-green-500 sm:h-12 sm:w-14" />
           <span className="text-base text-green-500 md:text-xl lg:text-3xl">Copied!</span>
         </>
       ) : (
         <>
-          <ClipboardDocumentIcon className="block h-5 w-5 sm:h-16 sm:w-14 lg:hidden" />
-          <span className="block text-lg md:text-xl lg:hidden lg:text-3xl">CA</span>
-          <span className="hidden text-sm md:text-lg lg:block xl:text-3xl">
-            CA: 0x6f5d9662a998cEfaDE4F29129a46d4D15289b093{' '}
-          </span>
+          <span className="text-xs md:text-xl xl:text-3xl">CA: {text}</span>
         </>
       )}
     </button>
   );
 };
 
-export default ButtonCopy;
+export default ButtonCopy2;

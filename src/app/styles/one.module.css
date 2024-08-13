@@ -51,10 +51,10 @@
   top: 5px;
 }
 .cn {
-  left: calc(50% - 600px + 500px);
+  left: calc(50% - 600px + 110px);
   position: absolute;
   z-index: 10;
-  top: 50px;
+  top: 60px;
 }
 .medium {
   position: absolute;
@@ -126,6 +126,11 @@
   }
   .dog {
     left: calc(50% - 600px + 141px);
+  }
+  .cn {
+    top: 43px;
+    left: calc(50% - 600px + 300px);
+    width: 66px;
   }
   .medium {
     left: calc(50% - 480px + 675px);
