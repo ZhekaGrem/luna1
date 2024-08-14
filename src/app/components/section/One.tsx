@@ -4,7 +4,7 @@ import InfiniteSliderFirst from '@/app/components/layout/InfiniteSliderFirst';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { slideUp } from '@/animations/animation';
-import CopyButton from '@/app/components/cummon/ButtonCopy';
+import CopyButton from '@/app/components/common/ButtonCopy';
 
 const One: React.FC = () => {
   const textToCopy = '0x6f5d9662a998cEfaDE4F29129a46d4D15289b093';
@@ -17,7 +17,7 @@ const One: React.FC = () => {
           <div className={styles.dog}>
             <Image src="/svg/dog.svg" width={127} height={127} alt="x" />
           </div>
-          <div className={styles.cn}>
+          <div className={styles.ca}>
             <CopyButton text={textToCopy} />
           </div>
           <div className={styles.medium}>

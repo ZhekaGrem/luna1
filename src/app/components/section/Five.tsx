@@ -4,7 +4,7 @@ import styles from '@/app/styles/five.module.css';
 import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
 import { slideUp, slideRCenter, emergence } from '@/animations/animation';
-import ButtonCopy2 from '@/app/components/cummon/ButtonCopy2';
+import ButtonCopy2 from '@/app/components/common/ButtonCopy2';
 
 const Five = () => {
   const textToCopy = '0x6f5d9662a998cEfaDE4F29129a46d4D15289b093';

@@ -50,10 +50,10 @@
   z-index: 5;
   top: 5px;
 }
-.cn {
-  left: calc(50% - 600px + 110px);
+.ca {
+  left: calc(50% - 600px + 150px);
   position: absolute;
-  z-index: 10;
+  z-index: 12;
   top: 60px;
 }
 .medium {
@@ -127,7 +127,7 @@
   .dog {
     left: calc(50% - 600px + 141px);
   }
-  .cn {
+  .ca {
     top: 43px;
     left: calc(50% - 600px + 300px);
     width: 66px;
@@ -175,7 +175,7 @@
     width: 112px;
     left: calc(50% - 290px);
   }
-  .cn {
+  .ca {
     top: 43px;
     left: calc(50% - 600px + 500px);
     width: 66px;
@@ -293,7 +293,7 @@
 
     width: 101px;
   }
-  .cn {
+  .ca {
     top: 58px;
     left: calc(50% - 160px + 88px);
     width: 55px;

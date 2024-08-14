@@ -33,7 +33,7 @@ const ButtonCopy: React.FC<CopyButtonProps> = ({ text }) => {
         <>
           <ClipboardDocumentIcon className="block h-5 w-5 sm:h-16 sm:w-14 lg:hidden" />
           <span className="block text-lg md:text-xl lg:hidden lg:text-3xl">CA</span>
-          <span className="hidden text-sm md:text-lg lg:block xl:text-3xl">
+          <span className="hidden text-sm md:text-lg lg:block xl:text-2xl">
             CA: 0x6f5d9662a998cEfaDE4F29129a46d4D15289b093{' '}
           </span>
         </>

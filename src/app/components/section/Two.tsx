@@ -61,7 +61,7 @@ const Two = () => {
                 className="animate-spin-slow-2"
               />
             </div>
-            <div className="col-span-2 row-span-2 flex items-start justify-end p-5">
+            <div className="col-span-2 row-span-2 flex items-start justify-end">
               <Image
                 src="/svg/flower-white.svg"
                 alt="Картинка 5"
