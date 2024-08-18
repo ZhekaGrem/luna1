@@ -34,15 +34,16 @@
   position: absolute;
   z-index: 43;
   top: 48px;
-  left: calc(50% - 600px + 14px);
+  left: calc(50% - 600px + 760px);
   width: 406px;
 }
 .text {
   position: absolute;
   z-index: 43;
   top: 48px;
-  left: calc(50% - 600px + 460px);
-  width: 40%;
+
+  left: calc(50% - 620px);
+  width: 50%;
   color: #ffffff;
   z-index: 2;
   border-width: 5px;
@@ -62,12 +63,12 @@
 }
 
 .text > h1 {
-  font-size: 28px;
+  font-size: 34px;
   font-weight: bolder;
   text-align: center;
 }
 .text > p {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
 }
 .dex_tol {
@@ -81,11 +82,11 @@
 @media screen and (max-width: 1199px) {
   .dex_scr {
     top: 142px;
-    left: calc(50% - 480px);
+    left: calc(50% - 480px + 550px);
     width: 334px;
   }
   .text {
-    left: calc(50% - 480px + 450px);
+    left: calc(50% - 480px);
   }
   .dex_tol {
     top: 200px;
@@ -95,13 +96,12 @@
 }
 @media screen and (max-width: 959px) {
   .dex_scr {
-    left: calc(50% - 420px);
+    left: calc(50% - 320px + 355px);
     top: 142px;
     width: 334px;
   }
   .text {
-    left: calc(50% - 320px + 285px);
-    width: 50%;
+    left: calc(50% - 420px + 25px);
   }
   .text > h1 {
     font-size: 24px;
@@ -118,20 +118,30 @@
 }
 @media screen and (max-width: 639px) {
   .dex_scr {
-    left: calc(50% - 240px);
-    width: 204px;
+    left: calc(50% - 320px + 405px);
+
+    width: 184px;
   }
 
   .text {
-    left: calc(50% - 320px + 285px);
-  }
-  .text > h1 {
-    font-size: 1rem;
-  }
-  .text > p {
-    font-size: 0.8rem;
-    line-height: 1rem;
+    left: calc(50% - 240px);
   }
 }
 @media screen and (max-width: 479px) {
+  .dex_scr {
+    left: calc(50% - 320px + 345px);
+
+    width: 184px;
+  }
+
+  .text {
+    left: calc(50% - 240px + 65px);
+  }
+  .text > h1 {
+    font-size: 1.2rem;
+  }
+  .text > p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
 }

@@ -1,4 +1,4 @@
-import { Noto_Sans } from 'next/font/google';
+import { Baloo_2 } from 'next/font/google';
 import '@/app/styles/globals.css';
 import FloatingCircle from '@/app/components/layout/FloatingCircle';
 import { siteMetadata, siteViewport } from '@/lib/metadata';
@@ -6,7 +6,7 @@ import { siteMetadata, siteViewport } from '@/lib/metadata';
 // import { GoogleTagManager from '@next/third-parties/google'; if you need npm i @next/third-parties
 // import { GoogleAnalytics } from '@next/third-parties/google'; if you need npm i @next/third-parties
 
-const noto = Noto_Sans({ subsets: ['latin'] });
+const noto = Baloo_2({ subsets: ['latin'] });
 
 export const viewport = siteViewport;
 
