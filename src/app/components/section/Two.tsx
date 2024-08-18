@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import styles from '@/app/styles/two.module.css';
 import { motion } from 'framer-motion';
-import { slideUp } from '@/animations/animation';
+import { slideUp, slideDown } from '@/animations/animation';
 const Two = () => {
   return (
     <section className={styles.bg2_1}>
@@ -81,7 +81,7 @@ const Two = () => {
               <Image src="/dex3.png" width={508} height={60} alt="etherscan" />
             </a>
           </motion.div>
-          <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.text}>
+          <motion.div variants={slideDown} initial="hidden" animate="visible" className={styles.text}>
             <h1>🌙 LUNA: The Token That Feels Like Home 🌙</h1>
             <p>
               Welcome to $LUNA, where love, community, and connection are at the core. 💖 Unlike other

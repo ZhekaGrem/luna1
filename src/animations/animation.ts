@@ -6,6 +6,14 @@ export const slideUp = {
     transition: { duration: 1.7 },
   },
 };
+export const slideDown = {
+  hidden: { y: -300, opacity: 1 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: { duration: 1.7 },
+  },
+};
 export const slideRCenter = {
   hidden: { x: 400, opacity: 1 },
   visible: {
