@@ -34,10 +34,42 @@
   position: absolute;
   z-index: 43;
   top: 48px;
-  left: calc(50% - 600px + 274px);
-  width: 506px;
+  left: calc(50% - 600px + 14px);
+  width: 406px;
+}
+.text {
+  position: absolute;
+  z-index: 43;
+  top: 48px;
+  left: calc(50% - 600px + 460px);
+  width: 40%;
+  color: #ffffff;
+  z-index: 2;
+  border-width: 5px;
+  border-radius: 50px;
+  opacity: 0.9;
+  /* background-color: #ffffff; */
+  background-position: center center;
+  border-color: #000000;
+  border-style: solid;
+  padding: 15px;
+  backdrop-filter: blur(5px);
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
+.text > h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+.text > p {
+  font-size: 20px;
+  font-weight: bold;
+}
 .dex_tol {
   position: absolute;
   z-index: 44;
@@ -49,8 +81,11 @@
 @media screen and (max-width: 1199px) {
   .dex_scr {
     top: 142px;
-    left: calc(50% - 480px + 350px);
+    left: calc(50% - 480px);
     width: 334px;
+  }
+  .text {
+    left: calc(50% - 480px + 450px);
   }
   .dex_tol {
     top: 200px;
@@ -60,9 +95,19 @@
 }
 @media screen and (max-width: 959px) {
   .dex_scr {
-    left: calc(50% - 320px + 185px);
+    left: calc(50% - 420px);
     top: 142px;
     width: 334px;
+  }
+  .text {
+    left: calc(50% - 320px + 285px);
+    width: 50%;
+  }
+  .text > h1 {
+    font-size: 24px;
+  }
+  .text > p {
+    font-size: 18px;
   }
   .dex_tol {
     left: 479px;
@@ -73,7 +118,19 @@
 }
 @media screen and (max-width: 639px) {
   .dex_scr {
-    left: calc(50% - 320px + 145px);
+    left: calc(50% - 240px);
+    width: 204px;
+  }
+
+  .text {
+    left: calc(50% - 320px + 285px);
+  }
+  .text > h1 {
+    font-size: 1rem;
+  }
+  .text > p {
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 }
 @media screen and (max-width: 479px) {

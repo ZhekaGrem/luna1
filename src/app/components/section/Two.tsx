@@ -25,7 +25,7 @@ const Two = () => {
                 </div>
               ))}
             </div>
-            <div className="col-span-2 row-span-2 flex items-center justify-center">
+            <div className="col-span-2 row-span-2 flex items-start justify-center">
               <Image
                 src="/svg/flower-white.svg"
                 alt="Картинка 1"
@@ -81,6 +81,16 @@ const Two = () => {
               <Image src="/dex3.png" width={508} height={60} alt="etherscan" />
             </a>
           </motion.div>
+          <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.text}>
+            <h1>🌙 LUNA: The Token That Feels Like Home 🌙</h1>
+            <p>
+              Welcome to $LUNA, where love, community, and connection are at the core. 💖 Unlike other
+              hype-driven coins, $LUNA represents warmth, care, and the shared journey toward financial
+              freedom. As the cosmic partner of $Lunas, $LUNA brings balance and harmony to the chaotic crypto
+              world. 🌌
+            </p>
+          </motion.div>
+
           {/* <motion.div variants={slideUp} initial="hidden" animate="visible" className={styles.dex_tol}>
             <a href="https://medium.com/@lunameme">
               <Image src="/dex2.png" width={508} height={60} alt="x" />
